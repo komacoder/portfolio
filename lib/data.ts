@@ -93,16 +93,13 @@ export const projects: {
 
 export const experience = [
   {
-    role: "Senior Full Stack Developer",
-    company: "Acme Corp",
-    period: "2023 – Present",
-    body: "Sample entry. Lead a small team building customer-facing web products, from architecture and APIs to CI/CD and performance budgets.",
-  },
-  {
-    role: "Full Stack Developer",
-    company: "Globex",
-    period: "2020 – 2023",
-    body: "Sample entry. Built and shipped internal tools and a public dashboard used by thousands of people every week.",
+    company: "Ibrat Farzandlari",
+    role: "Frontend Developer",
+    period: "Aug 2025 - Oct 2025",
+    location: "Tashkent, Uzbekistan (On-site)",
+    description:
+      "Worked as a Frontend Developer on a full-time basis. Contributed to building and maintaining web interfaces, focusing on responsive design and modern frontend technologies.",
+    body: "Worked as a Frontend Developer on a full-time basis. Contributed to building and maintaining web interfaces, focusing on responsive design and modern frontend technologies.",
   },
 ];
 
