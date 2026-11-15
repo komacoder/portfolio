@@ -37,6 +37,9 @@ export default function ResumePage() {
             <EmailLink className="underline underline-offset-2">{profile.email}</EmailLink>
             <a href={profile.github} className="underline underline-offset-2">github.com/{profile.githubUser}</a>
             <a href={profile.linkedin} className="underline underline-offset-2">LinkedIn</a>
+            {profile.telegram && (
+              <a href={profile.telegram} className="underline underline-offset-2">Telegram</a>
+            )}
             <a href={SITE_URL} className="underline underline-offset-2">{host}</a>
           </p>
         </header>

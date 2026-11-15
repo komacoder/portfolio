@@ -16,7 +16,7 @@ export const personJsonLd = () => ({
   url: SITE_URL,
   image: absoluteUrl(profile.avatar),
   email: `mailto:${profile.email}`,
-  sameAs: [profile.github, profile.linkedin, profile.x],
+  sameAs: [profile.github, profile.linkedin, profile.telegram, profile.x].filter(Boolean),
   knowsAbout: Object.values(stackGroups).flat(),
   worksFor: experience[0] ? { "@type": "Organization", name: experience[0].company } : undefined,
   address:

@@ -20,8 +20,8 @@ export default function Hero() {
       </div>
       <div className="relative flex items-start justify-between gap-4 px-6 pb-7">
         <div className="-mt-10 flex items-end gap-5">
-          <Image src={profile.avatar} alt={profile.name} width={96} height={96} priority
-            className="size-24 shrink-0 rounded-xl border border-line bg-card object-cover shadow-lg" />
+          <Image src={profile.avatar} alt={profile.name} width={96} height={96} priority unoptimized
+            className="size-24 shrink-0 rounded-xl border border-line bg-card object-cover object-center shadow-lg [image-rendering:auto]" />
           <div className="pb-1">
             <h1 className="font-serif text-2xl leading-tight sm:text-3xl md:text-4xl">{profile.name}</h1>
             <p className="mt-1 font-mono text-[13px] text-muted">{profile.role}</p>

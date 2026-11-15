@@ -38,6 +38,7 @@ export default function CommandPalette({ open, setOpen }: { open: boolean; setOp
       { label: "Contact", hint: "Section", href: "/#contact" },
       { label: "GitHub", hint: "Link", href: profile.github },
       { label: "LinkedIn", hint: "Link", href: profile.linkedin },
+      ...(profile.telegram ? [{ label: "Telegram", hint: "Link", href: profile.telegram }] : []),
       { label: "Email", hint: "Link", href: `mailto:${profile.email}` },
       { label: "Resume", hint: "Page", href: "/resume" },
       ...caseStudies.map((c) => ({ label: splitTitle(c.title).name, hint: "Case study", href: `/work/${c.slug}` })),

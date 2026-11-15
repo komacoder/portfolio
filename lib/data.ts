@@ -3,31 +3,32 @@
  * Case studies and blog posts live in content/work.json and content/blog.json.
  */
 export const profile = {
-  name: "Alex Morgan",
-  short: "Alex",
-  role: "Full Stack Developer",
-  location: "Anywhere, Earth",
-  timezone: "UTC",
-  email: "hello@example.com",
-  github: "https://github.com/octocat",
-  githubUser: "octocat", // powers the GitHub activity graph
-  linkedin: "https://www.linkedin.com/in/your-handle",
-  x: "https://x.com/your_handle",
+  name: "Kamronbek Sultonmurodov",
+  short: "Kamronbek",
+  role: "Java Software Engineer",
+  location: "Tashkent, Uzbekistan",
+  timezone: "UTC+5",
+  email: "komacoder26@gmail.com",
+  github: "https://github.com/komacoder",
+  githubUser: "komacoder", // powers the GitHub activity graph
+  linkedin: "https://www.linkedin.com/in/kamronbek-sultonmurodov26/",
+  telegram: "https://t.me/abuSa1f",
+  x: "",
   resume: "/resume", // the generated /resume page; point to your own PDF URL if you prefer
-  avatar: "/img/avatar.jpeg",
+  avatar: "/img/avatar.jpg",
   // Optional, used for structured data. Leave empty strings to omit.
-  region: "",
-  country: "",
+  region: "Tashkent",
+  country: "Uzbekistan",
   about: [
-    "Hi, I'm Alex, a full-stack developer who enjoys building products that pair clean interfaces with solid, scalable backends.",
-    "I work mostly with TypeScript, React, Next.js, Node.js and PostgreSQL, and I like taking an idea from a rough sketch all the way to a deployed product.",
-    "This is sample content from the quietfolio template. Edit lib/data.ts, content/work.json and content/blog.json to make it yours.",
+    "I am a Software Engineering student and Java Backend Developer based in Tashkent, Uzbekistan. I am currently focusing on building robust server-side applications using Java and Spring Boot.",
+    "I have a solid foundation in Frontend development with React and Next.js, which allows me to understand the full picture of web application architecture and create seamless integrations between backend and frontend.",
+    "I am actively learning and building REST APIs, working with databases, and preparing to step into a professional backend engineering role.",
   ],
   snapshot: [
-    "Building full-stack products.",
-    "Designing clean, fast interfaces.",
-    "Writing about engineering.",
-    "Always learning something new.",
+    "Focusing on Java Backend & Spring Boot",
+    "REST API Development & Database Integration",
+    "Frontend experience with React & Next.js",
+    "Student at IT Park University",
   ],
 };
 

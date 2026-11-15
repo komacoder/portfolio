@@ -2,8 +2,9 @@
 // Validates content/*.json and asset/link references. Runs in CI (`npm run validate`).
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const root = new URL("..", import.meta.url).pathname;
+const root = fileURLToPath(new URL("..", import.meta.url));
 const errors = [];
 const fail = (m) => errors.push(m);
 const read = (p) => readFileSync(join(root, p), "utf8");
